@@ -48,7 +48,7 @@ img{
     color: white;
     display: inline-block;
     background-color: #47adf1;
-    padding: 5px;
+    padding: 7px;
     margin: 20px 0px 5px 50px;
     border-radius: 5px;
     width: max-content;
@@ -70,6 +70,43 @@ img{
 
 /* liste */
 
+ol{
+    list-style: none;
+}
+mark{
+    border-radius: 15px;
+    padding: 5px 8px 5px 8px;
+}
+
+/* color mark */
+
+.mark-style-blue{
+    background-color: #45abea;
+}
+
+.mark-style-purple{
+    background-color: #9c73e4;
+}
+
+.mark-style-green{
+    background-color: #64c0a9;
+}
+
+.mark-style-orange{
+    background-color: #f29e33;
+}
+
+.mark-style-pink{
+    background-color: #d863a1;
+}
+
+.mark-style-pgreen{
+    background-color: #afc825;
+}
+
+
+
+
 
 .second-box{
     width: 1000px;
@@ -87,7 +124,7 @@ li.li-triangle{
 }
 
 li.li-checked{
-    
+    list-style-image: url(../img/iconv.png);
     padding-top: 5px;
     margin-left: 50px;
 }
