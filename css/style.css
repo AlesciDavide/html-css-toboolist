@@ -49,7 +49,7 @@ img{
     display: inline-block;
     background-color: #47adf1;
     padding: 5px;
-    margin: 5px;
+    margin: 20px 0px 5px 50px;
     border-radius: 5px;
     width: max-content;
     height: max-content
@@ -68,10 +68,26 @@ img{
     height: max-content
 }
 
+/* liste */
+
 
 .second-box{
     width: 1000px;
     margin: 0 auto;
     background-color: #ffffff;
     margin-top: 5px;
+}
+
+
+li.li-triangle{
+    list-style-image: url(../img/iconlist.png);
+    padding-top: 30px;
+    margin-left: 50px;
+
+}
+
+li.li-checked{
+    
+    padding-top: 5px;
+    margin-left: 50px;
 }
