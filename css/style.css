@@ -32,7 +32,7 @@ img{
     /* background-color: #f6f8f9; */
     background-color: #f6f8f9;
     padding-top: 50px;
-
+    padding-bottom: 50px;
 }
 
 .first-box{
@@ -70,12 +70,22 @@ img{
 
 /* liste */
 
+
+p{
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+    
+
+
 ol{
     list-style: none;
 }
 mark{
+    color: white;
+    font-size: 0.8rem;
     border-radius: 15px;
-    padding: 5px 8px 5px 8px;
+    padding: 5px 11px 5px 11px;
 }
 
 /* color mark */
@@ -104,8 +114,7 @@ mark{
     background-color: #afc825;
 }
 
-
-
+/* fine color mark */
 
 
 .second-box{
@@ -113,6 +122,8 @@ mark{
     margin: 0 auto;
     background-color: #ffffff;
     margin-top: 5px;
+    padding-bottom: 40px;
+    border-radius: 0 0 6px 6px;
 }
 
 
@@ -125,6 +136,12 @@ li.li-triangle{
 
 li.li-checked{
     list-style-image: url(../img/iconv.png);
-    padding-top: 5px;
+    padding-top: 15px;
+    margin-left: 50px;
+}
+
+li.li-unchecked{
+    list-style-image: url(../img/iconx.png);
+    padding-top: 15px;
     margin-left: 50px;
 }
